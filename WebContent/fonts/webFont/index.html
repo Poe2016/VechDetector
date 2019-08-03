@@ -1,0 +1,707 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>home</title>
+	
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="./css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="./css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="./css/magnific-popup.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="./css/style.css" />
+	<!-- mystyle stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="./css/mystyle.css" />
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/logo.png" alt="logo">
+							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li class="has-dropdown"><a href="#">服务</a>
+						<ul class="dropdown">
+							<li><a href="#about">图像识别</a></li>
+							<li><a href="#portfolio">视频识别</a></li>
+						</ul>
+					</li>
+					<li><a href="login-regist/login.html">登录</a></li>
+					<li><a href="login-regist/regist.html">注册</a></li>
+					<li><a href="#pricing">项目简介</a></li>
+					<li class="has-dropdown"><a href="#testimonial">团队</a>
+						<ul class="dropdown">
+							<li><a href="#testimonial">团队成员</a></li>
+							<li><a href="#team">团队简介</a></li>
+							<!--<li><a href="blog-single.html">团队成员</a></li>-->
+						</ul>
+					</li>
+					<li><a href="#contact">联系我们</a></li>
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">欢迎进入车辆识别系统</h1>
+							<p class="white-text">不忘初心，方得始终.
+							</p>
+							<!--注意这里使用<a>标签不合适，稍后改-->
+							<button id="id-imp-img-btn" class="white-btn" onclick="importbtn('id-imp-img-btn')">图像识别</button>
+							<button id="id-imp-vedio-btn" class="main-btn" onclick="importbtn('id-imp-vedio-btn')">视频识别</button>
+						</div>
+					</div>
+					<!-- /home content -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About 对应导入图片-->
+	<div id="about" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+			<!--功能介绍-->
+			<div class="functional-introduction" >
+				<div class="introduce">
+					<div class="intro-container">
+						<div class="intro-title">车辆图像识别功能介绍</div>
+						<div class="intro-text">终极理想：对用户上传的汽车图片自动地检测车身以及识别车辆属性，支持多种车身颜色、多种车型、多种品牌、多种车系+年款的识别，以及车标的位置检测，更多车辆特征及部件的检测识别持续扩充中。</div>
+						<div class="intro-img" style="background-image: url(&quot;./img/introduce-img.jpg&quot;); width: 800px; height: 400px;">
+							
+						</div>
+					</div>
+
+				</div>
+
+			</div><!--functional-introduction 功能介绍-->
+			<div class="experience-container">
+				<div class="experience-center">
+					<div class="title">技术体验中心</div>
+					<div class="container">
+						<div class="experience-img-wall">
+							<div class="picture-wall">
+								<div class="picture-container" style="width: 1200px;">
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-1.jpg&quot;);"><!----></div>
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-2.jpg&quot;);"><!----></div>
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-3.jpg&quot;);"><!----></div>
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-4.jpg&quot;);"><!----></div>
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-5.jpg&quot;);"><!----></div>
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-6.jpg&quot;);"><!----></div>
+								</div>
+							</div>
+						</div><!--end experience-img-wall-->
+						<div class="upload-img">
+							<div class="upload">
+								<div class="location-img">
+									<div class="location-img-uplaod">
+										<div class="text">上传本地照片</div> 
+										<input type="file" accept="image/png, image/jpeg, image/jpg" class="input-file">
+									</div>
+								</div>
+								<div class="internet-img">
+									<div class="el-input">
+										<!---->
+										<input autocomplete="off" placeholder="使用网络图片,请粘贴图片URL" type="text" rows="2" validateevent="true" class="el-input__inner">
+										<!----><!----><!---->
+									</div> 
+									<span class="analyse-btn">分析</span>
+								</div>
+							</div>
+						</div><!--end upload-img-->
+						<div class="result">
+							<div class="ocr-experience-center-result">
+								<div class="img-result" style="height:400px;">
+									<div class="img-experience"></div>
+									<div class="img-result-bg" style="background-image: url('./img/exp_img_bg.png');width:400px;height:400px;"></div>
+									<div class="box-container">
+										<div class="box-car-position" style="top: 199px; left: 99px; width: 167px; height: 83px;">
+											<div class="car-line left-top"></div> 
+											<div class="car-line right-top"></div> 
+											<div class="car-line left-bottom"></div> 
+											<div class="car-line right-bottom"></div>
+										</div>
+									</div>
+								</div><!--end img-result-->
+								<div class="result-container">
+									<div class="result-list scrollbar"><!----> 
+										<div class="result-details hide-title">
+											<div class="detail odd">
+												<div class="number-ocr-result">车辆类型</div> 
+												<div class="result-ocr-result">跑车</div>
+											</div>
+											<div class="detail">
+												<div class="number-ocr-result">车辆品牌</div> 
+												<div class="result-ocr-result">玛莎拉蒂</div>
+											</div>
+											<div class="detail odd">
+												<div class="number-ocr-result">车系</div> 
+												<div class="result-ocr-result">GranCabrio</div>
+											</div>
+											<div class="detail">
+												<div class="number-ocr-result">颜色</div> 
+												<div class="result-ocr-result">红</div>
+											</div>
+										</div>
+									</div>
+								</div><!--end result-container-->
+							</div>
+						</div><!--end result-->
+					</div><!--end container-->
+				</div><!--end experience-center-->
+			</div><!--end experience-container-->
+		</div>
+		<!-- /Container -->
+	</div>
+	<!-- /About -->
+
+
+	<!-- Portfolio 对应导入视频-->
+	<div id="portfolio" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+			<!--功能介绍-->
+			<div class="functional-introduction" >
+				<div class="introduce">
+					<div class="intro-container">
+						<div class="intro-title">车辆视频识别功能介绍</div>
+						<div class="intro-text">终极理想：对用户上传的汽车图片自动地检测车身以及识别车辆属性，支持多种车身颜色、多种车型、多种品牌、多种车系+年款的识别，以及车标的位置检测，更多车辆特征及部件的检测识别持续扩充中。</div>
+						<div class="intro-img" style="background-image: url(&quot;./img/introduce-img.jpg&quot;); width: 800px; height: 400px;">
+							
+						</div>
+					</div>
+
+				</div>
+
+			</div><!--functional-introduction 功能介绍-->
+			<div class="experience-container">
+				<div class="experience-center">
+					<div class="title">技术体验中心</div>
+					<div class="container">
+						<div class="experience-img-wall">
+							<div class="picture-wall">
+								<div class="picture-container" style="width: 1200px;">
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-1.jpg&quot;);"><!----></div>
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-2.jpg&quot;);"><!----></div>
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-3.jpg&quot;);"><!----></div>
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-4.jpg&quot;);"><!----></div>
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-5.jpg&quot;);"><!----></div>
+									<div data-v-4165cced="" class="pic-item six-pic" style="background-image: url(&quot;./img/picture-wall-6.jpg&quot;);"><!----></div>
+								</div>
+							</div>
+						</div><!--end experience-img-wall-->
+						<div class="upload-img">
+							<div class="upload">
+								<div class="location-img">
+									<div class="location-img-uplaod">
+										<div class="text">上传本地视频</div> 
+										<input type="file" accept="image/png, image/jpeg, image/jpg" class="input-file">
+									</div>
+								</div>
+								<div class="internet-img">
+									<div class="el-input">
+										<!---->
+										<input autocomplete="off" placeholder="请输入本地视频地址" type="text" rows="2" validateevent="true" class="el-input__inner">
+										<!----><!----><!---->
+									</div> 
+									<span class="analyse-btn">分析</span>
+								</div>
+							</div>
+						</div><!--end upload-img-->
+						<div class="result">
+							<div class="ocr-experience-center-result">
+								<div class="img-result" style="height:400px;">
+									<div class="img-experience"></div>
+									<div class="img-result-bg" style="background-image: url('./img/exp_img_bg.png');width:400px;height:400px;"></div>
+									<div class="box-container">
+										<div class="box-car-position" style="top: 199px; left: 99px; width: 167px; height: 83px;">
+											<div class="car-line left-top"></div> 
+											<div class="car-line right-top"></div> 
+											<div class="car-line left-bottom"></div> 
+											<div class="car-line right-bottom"></div>
+										</div>
+									</div>
+								</div><!--end img-result-->
+								<div class="result-container">
+									<div class="result-list scrollbar"><!----> 
+										<div class="result-details hide-title">
+											<div class="detail odd">
+												<div class="number-ocr-result">车辆类型</div> 
+												<div class="result-ocr-result">跑车</div>
+											</div>
+											<div class="detail">
+												<div class="number-ocr-result">车辆品牌</div> 
+												<div class="result-ocr-result">玛莎拉蒂</div>
+											</div>
+											<div class="detail odd">
+												<div class="number-ocr-result">车系</div> 
+												<div class="result-ocr-result">GranCabrio</div>
+											</div>
+											<div class="detail">
+												<div class="number-ocr-result">颜色</div> 
+												<div class="result-ocr-result">红</div>
+											</div>
+										</div>
+									</div>
+								</div><!--end result-container-->
+							</div>
+						</div><!--end result-->
+					</div><!--end container-->
+				</div><!--end experience-center-->
+			</div><!--end experience-container-->
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Portfolio -->
+
+	<!-- Pricing 对应项目简介-->
+	<div id="pricing" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">项目简介</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Basic plan</span>
+							<div class="price">
+								<h3>$9<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Silver plan</span>
+							<div class="price">
+								<h3>$19<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Gold plan</span>
+							<div class="price">
+								<h3>$39<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+			</div>
+			<!-- Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Pricing -->
+
+
+	<!-- Testimonial -->
+	<div id="testimonial" class="section md-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background3.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Testimonial slider -->
+				<div class="col-md-10 col-md-offset-1">
+					<div id="testimonial-slider" class="owl-carousel owl-theme">
+
+						<!-- testimonial -->
+						<div class="testimonial">
+							<div class="testimonial-meta">
+								<img src="./img/perso1.jpg" alt="">
+								<h3 class="white-text">John Doe</h3>
+								<span>Web Designer</span>
+							</div>
+							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+						</div>
+						<!-- /testimonial -->
+
+						<!-- testimonial -->
+						<div class="testimonial">
+							<div class="testimonial-meta">
+								<img src="./img/perso2.jpg" alt="">
+								<h3 class="white-text">John Doe</h3>
+								<span>Web Designer</span>
+							</div>
+							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+						</div>
+						<!-- /testimonial -->
+
+					</div>
+				</div>
+				<!-- /Testimonial slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Testimonial -->
+
+	<!-- Team -->
+	<div id="team" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team1.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team2.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team3.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Team -->
+
+	<!-- Contact -->
+	<div id="contact" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section-header -->
+				<div class="section-header text-center">
+					<h2 class="title">Get in touch</h2>
+				</div>
+				<!-- /Section-header -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-phone"></i>
+						<h3>Phone</h3>
+						<p>512-421-3940</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-envelope"></i>
+						<h3>Email</h3>
+						<p>email@support.com</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-map-marker"></i>
+						<h3>Address</h3>
+						<p>1739 Bubby Drive</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact form -->
+				<div class="col-md-8 col-md-offset-2">
+					<form class="contact-form">
+						<input type="text" class="input" placeholder="Name">
+						<input type="email" class="input" placeholder="Email">
+						<input type="text" class="input" placeholder="Subject">
+						<textarea class="input" placeholder="Message"></textarea>
+						<button class="main-btn">Send message</button>
+					</form>
+				</div>
+				<!-- /contact form -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Contact -->
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © </p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+	<script type="text/javascript" src="./js/myjs.js"></script>
+
+</body>
+
+</html>

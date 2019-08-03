@@ -1,0 +1,465 @@
+/*    --    mystyle  --      */
+.introduce {
+
+    padding: 70px 0;
+
+}
+.introduce .intro-container {
+
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.introduce div {
+
+    box-sizing: border-box;
+
+}
+.introduce .intro-container .intro-title {
+
+    font-size: 30px;
+    color: #00a4ff;
+    margin-bottom: 40px;
+    line-height: 1;
+    text-align: center;
+
+}
+.introduce .intro-container .intro-text {
+
+    font-size: 16px;
+    color: #212121;
+    text-align: justify;
+    line-height: 1.8;
+
+}
+.introduce .intro-container .intro-img {
+
+    margin: 60px auto 0;
+    box-shadow: 0 2px 20px rgba(0,0,0,.05),0 6px 6px rgba(0,0,0,.03);
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+}
+.experience-container {
+
+    background-color: #fff;
+    padding-bottom: 70px;
+
+}
+.experience-center {
+
+    padding: 70px 0;
+    background-color: #effaff;
+    min-width: 1200px;
+
+}
+.experience-center .title {
+
+    font-size: 30px;
+    color: #00a4ff;
+    margin-bottom: 40px;
+    line-height: 1;
+    text-align: center;
+
+}
+.experience-center div {
+
+    box-sizing: border-box;
+
+}
+.experience-center .container {
+
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.experience-center .container .experience-img-wall {
+
+    margin-bottom: 20px;
+
+}
+.picture-wall {
+
+    overflow: hidden;
+
+}
+.picture-wall .picture-container {
+
+    font-size: 0;
+
+}
+.picture-wall .picture-container .pic-item.six-pic{
+
+    width: 200px;
+    height: 200px;
+
+}
+.picture-wall .picture-container .pic-item {
+
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    font-size: 0;
+    position: relative;
+    background-position: 50%;
+    background-size: 100%;
+    cursor: pointer;
+
+}
+.experience-center .container .upload-img {
+
+    margin-bottom: 20px;
+    font-size: 0;
+
+}
+.experience-center .container .upload-img .upload .location-img {
+
+    display: inline-block;
+    position: relative;
+
+}
+.location-img-uplaod {
+
+    overflow: hidden;
+    width: 180px;
+    position: relative;
+
+}
+.experience-center .container .upload-img .upload .location-img .text {
+
+    width: 180px;
+    height: 40px;
+    background: #00a4ff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 20px;
+
+}
+
+.experience-center .container .upload-img .upload .location-img .input-file {
+
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: -70px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    opacity: 0;
+
+}
+.experience-center .container .upload-img .upload .internet-img {
+
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+
+}
+.experience-center .container .upload-img .upload .internet-img .el-input {
+
+    width: 860px;
+    height: 40px;
+
+}
+.el-input {
+
+    position: relative;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+
+}
+.experience-center .container .upload-img .upload .internet-img .el-input .el-input__inner {
+
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    border-style: none;
+    border: 1px solid #00a4ff;
+    padding: 0 0 0 20px;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #212121;
+
+}
+.inner-app-root .el-input__inner, .inner-app-root .el-textarea__inner {
+
+    border-radius: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+.inner-app-root .el-input__inner {
+
+    height: 34px;
+    line-height: 34px;
+
+}
+.el-input__inner {
+
+    -webkit-appearance: none;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    font-size: inherit;
+    height: 40px;
+    line-height: 1;
+    outline: 0;
+    padding: 0 15px;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    width: 100%;
+
+}
+.el-input__inner, .el-textarea__inner {
+
+    -webkit-box-sizing: border-box;
+    background-image: none;
+
+}
+.el-input__inner {
+
+    font-size: 15px;
+    color: #5c6773;
+    font-size: 14px;
+
+}
+.experience-center .container .upload-img .upload .internet-img .analyse-btn {
+
+    vertical-align: top;
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    background: #00a4ff;
+    color: #fff;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+
+}
+.ocr-experience-center-result {
+
+    font-size: 0;
+
+}
+.ocr-experience-center-result .img-result{
+
+    width: 400px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+
+}
+.ocr-experience-center-result .img-result .ocr-experience-center-result .result-container {
+
+    height: 400px;
+    background-color: #dff2ff;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+
+}
+.ocr-experience-center-result .img-result .img-experience {
+
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.ocr-experience-center-result .img-result .img-result-bg{
+    /*background: #ff00ff;
+    background-image: url(../img/exp_img_bg.png);*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+.box-container{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+.image-vehicle-attribute .experience-container .box-car-position{
+
+    position: absolute;
+
+}
+.image-vehicle-attribute div{
+
+    box-sizing: border-box;
+
+}
+.ocr-experience-center-result div{
+
+    box-sizing: border-box;
+
+}
+.experience-container .box-car-position .car-line.left-top {
+
+    left: 0;
+    top: 0;
+    border-left: 3px solid #61e6bd;
+    border-top: 3px solid #61e6bd;
+
+}
+ .experience-container .box-car-position .car-line {
+
+    position: absolute;
+    opacity: .9;
+    width: 25%;
+    height: 25%;
+
+}
+.experience-container .box-car-position .car-line.right-top {
+
+    right: 0;
+    top: 0;
+    border-right: 3px solid #61e6bd;
+    border-top: 3px solid #61e6bd;
+
+}
+.experience-container .box-car-position .car-line.left-bottom {
+
+    left: 0;
+    bottom: 0;
+    border-left: 3px solid #61e6bd;
+    border-bottom: 3px solid #61e6bd;
+
+}
+ .experience-container .box-car-position .car-line.right-bottom {
+
+    right: 0;
+    bottom: 0;
+    border-right: 3px solid #61e6bd;
+    border-bottom: 3px solid #61e6bd;
+
+}
+.experience-center .container .result-container {
+
+    margin-bottom: 20px;
+
+}
+.ocr-experience-center-result .result-container{
+
+    width: 750px;
+    height: 400px;
+    background-image: url(../img/result_bg.png);
+    background-repeat: no-repeat;
+    padding: 20px 12px 20px 30px;
+    color: #005887;
+    background-color: #dff2ff;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    float: right;
+
+}
+.ocr-experience-center-result .result-container .result-list{
+
+    height: 360px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+.ocr-experience-center-result .result-container .result-list .result-details.hide-title {
+
+    padding-top: 10px;
+
+}
+.ocr-experience-center-result .result-container .result-list .result-details .detail.odd{
+
+    background-color: #ceebff;
+
+}
+/*
+.ocr-experience-center-result .result-container .result-list .result-details .detail {
+
+    padding: 10px 0;
+    line-height: 2;
+    font-size: 0;
+    width: 725px;
+
+}
+*/
+.detail {
+
+    padding: 10px 0;
+    font-size: 100%;
+    width: 725px;
+    height:50px;
+    text-align: center;
+}
+.ocr-experience-center-result .result-container .result-list .result-details.hide-title .detail .number-ocr-result {
+
+    font-weight: 700;
+    text-align: right;
+    padding-right: 35px;
+	float: left;
+}
+.ocr-experience-center-result .result-container .result-list .result-details .detail .number-ocr-result{
+
+    width: 160px;
+    height: 32px;
+    text-align: center;
+
+}
+.ocr-experience-center-result .result-container .result-list .result-details .detail .number-ocr-result
+.ocr-experience-center-result .result-container .result-list .result-details .detail .result-error-result
+.ocr-experience-center-result .result-container .result-list .result-details .detail .result-ocr-result{
+
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+
+}
+.ocr-experience-center-result .result-container .result-list .result-details .detail .result-ocr-result {
+
+    line-height: 2;
+    width: 555px;
+    text-align: justify;
+    word-break: break-all;
+
+}
+
+#preview {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-size: cover;
+    background-position:center center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_131">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/jee-2018-09/workspace/externalJAR/json-20160810.jar"/>
+	<classpathentry kind="lib" path="D:/jee-2018-09/workspace/externalJAR/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/jee-2018-09/workspace/externalJAR/commons-lang3-3.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/jee-2018-09/workspace/externalJAR/commons-beanutils-1.9.3.jar"/>
+	<classpathentry kind="lib" path="D:/jee-2018-09/workspace/externalJAR/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/jee-2018-09/workspace/externalJAR/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="D:/jee-2018-09/workspace/externalJAR/commons-logging-1.2.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

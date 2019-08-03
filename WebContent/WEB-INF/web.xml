@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>VechDetector</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>welcomeServlet</servlet-name>
+    <servlet-class>com.servlet.WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>welcomeServlet</servlet-name>
+    <url-pattern>/welcomeAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>registAct</servlet-name>
+  	<servlet-class>com.servlet.RegistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>registAct</servlet-name>
+  	<url-pattern>/login-regist/registAct</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>stuLoginAct</servlet-name>
+  	<servlet-class>com.servlet.StuLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>stuLoginAct</servlet-name>
+  	<url-pattern>/login-regist/stuLoginAct</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>uploadImg</servlet-name>
+  	<servlet-class>com.servlet.UploadImgServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>uploadImg</servlet-name>
+  	<url-pattern>/uploadImg</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>uploadVideo</servlet-name>
+  	<servlet-class>com.servlet.UploadVideoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>uploadVideo</servlet-name>
+  	<url-pattern>/uploadVideo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>urlUpImg</servlet-name>
+  	<servlet-class>com.servlet.UrlUploadImg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>urlUpImg</servlet-name>
+  	<url-pattern>/urlUpImg</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>urlUpVideo</servlet-name>
+  	<servlet-class>com.servlet.UrlUploadVideo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>urlUpVideo</servlet-name>
+  	<url-pattern>/urlUpVideo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>modify</servlet-name>
+  	<servlet-class>com.servlet.ModifyInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>modify</servlet-name>
+  	<url-pattern>/personal/modify</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+</web-app>
